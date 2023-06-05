@@ -262,3 +262,25 @@ footer {
     font-size: 125%;
     text-align: center;
 }
+
+
+/* media queries for 1200px and 750px downward screens */
+
+@media screen and (max-width:1200px) {
+    #submit-task, #submit-new-task, #task-actions-popup {
+        width: 70%;
+        left: 15%;
+        right: 15%;
+    }
+
+    #theme-selector {
+        float: none;
+        text-align: center;
+        margin: 20px 30px;
+    }
+
+    #main-outer table {
+        width: 100%;
+        margin-left: 0;
+    }
+}
