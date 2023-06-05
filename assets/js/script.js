@@ -224,6 +224,13 @@ function resetTable() {
     }
 }
 
+
+//  adding eventlistener to edit popup close button 
+document.getElementById("close-actions").addEventListener("click", function () {
+    document.getElementById("task-actions-popup").style.display="none";
+    document.getElementById("overlay").style.display="none";
+});
+
 function createEditPopup(selectedTask){}
 
 function highlightTask () {}
