@@ -159,3 +159,50 @@ td:first-child, th:first-child,td:last-child, th:last-child {
 #start:hover,#add-task:hover, #reset-table:hover, #highlight-task:hover, #mark-done:hover, #delete:hover, #toggle:hover {
     transform: scale(1.1);
 }
+
+
+
+/* task-action div, task-action popup */
+
+#task-actions {
+    display: none;
+}
+
+#task-actions button, #task-actions-popup button {
+    margin-left: 20px;
+}
+
+#submit-task, #submit-new-task, #task-actions-popup {
+    position: fixed;
+    min-width: 40%;
+    min-height: 250px;
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    z-index: 10;
+    display: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ #task-actions-popup h4 {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.close {
+    color: darkblue;
+    font-size: 175%;
+    float:right ;
+    margin-right: 15px;  
+}
+
+#submit-task h3, #submit-new-task h3, #task-actions-popup h3{
+    font-size: 200%;
+    color: darkblue;
+    clear: both;
+}
