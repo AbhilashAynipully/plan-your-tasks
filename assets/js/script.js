@@ -256,7 +256,23 @@ function createEditPopup(selectedTask) {
     }
 }
 
-function highlightTask () {}
+
+
+// highlights or remove highlight (basis background color = red tone)
+function highlightTask () {
+    let selectedTask = document.getElementById('selected-task-no').innerHTML;
+    let table = document.getElementById("task-table");
+    let cellColor = table.rows[selectedTask].cells[1].style.backgroundColor;
+
+    if (cellColor === "rgba(255, 0, 0, 0.2)") {
+        table.rows[selectedTask].cells[1].style.backgroundColor = "inherit";
+        document.getElementById("highlight-task").innerHTML = "Highlight";
+    } else if (cellColor !== "rgba(255, 0, 0, 0.2)") {
+        table.rows[selectedTask].cells[1].style.backgroundColor = "rgba(255, 0, 0, 0.2)";
+        document.getElementById("highlight-task").innerHTML = "Remove Highlight";
+        document.getElementById("mark-done").innerHTML = "Mark Done";
+    } 
+}
 
 function markDone () {}
 
