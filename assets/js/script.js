@@ -168,7 +168,42 @@ document.getElementById("new-task-close").addEventListener("click", function () 
     document.getElementById("new-task-box").value = "";
 });
 
-function newTask(){}
+
+
+/* enters susequent tasks into table
+ * checks and sends alerts if empty or no data is submitted
+ * generates edit button for each task
+ * if properly submitted sends alert and close the popoup after clearing textbox
+ * changes total task count
+*/
+function newTask(){
+    let taskEntered = document.getElementById("new-task-box").value.trim();
+    if (taskEntered === ""){
+        alert("Please add some content to your task");
+    } else {
+        let table = document.getElementById("task-table");
+        let tableRows = table.rows.length;
+        let newRow = table.insertRow(tableRows++);
+        let button = document.createElement("button");
+        button.innerText = "EDIT";
+        button.className = "edit-button";
+        let newCell1 = newRow.insertCell(0);
+        let newCell2 = newRow.insertCell(1);
+        let newCell3 = newRow.insertCell(2);
+
+        newCell1.innerHTML = --tableRows;
+        newCell2.innerHTML = taskEntered;
+        button.setAttribute("id",newCell1.innerHTML);
+        newCell3.append(button);
+        taskIdentifier ();
+
+        document.getElementById("task-count").innerText = "Total Tasks -"+ tableRows;
+        document.getElementById("submit-new-task").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+        alert("Congratulations on adding new task :)");
+        document.getElementById("new-task-box").value = "";
+    }
+}
 
 function resetTable(){}
 
