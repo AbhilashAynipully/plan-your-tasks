@@ -259,7 +259,7 @@ function createEditPopup(selectedTask) {
 
 
 // highlights or remove highlight (basis background color = red tone)
-function highlightTask () {
+function highlightTask() {
     let selectedTask = document.getElementById('selected-task-no').innerHTML;
     let table = document.getElementById("task-table");
     let cellColor = table.rows[selectedTask].cells[1].style.backgroundColor;
@@ -274,8 +274,22 @@ function highlightTask () {
     } 
 }
 
-function markDone () {}
 
-function deleteTask () {}
 
-function refreshTable () {}
+// sets background color to green or removes it basedon user input
+function markDone() {
+    let selectedTask = document.getElementById('selected-task-no').innerHTML;
+    let table = document.getElementById("task-table");
+    if (table.rows[selectedTask].cells[1].style.backgroundColor === "rgba(0, 255, 0, 0.2)") {
+        table.rows[selectedTask].cells[1].style.backgroundColor = "inherit";
+        document.getElementById("mark-done").innerHTML = "Mark Done";
+    } else if (table.rows[selectedTask].cells[1].style.backgroundColor !== "rgba(0, 255, 0, 0.2)") {
+        table.rows[selectedTask].cells[1].style.backgroundColor = "rgba(0, 255, 0, 0.2)";
+        document.getElementById("mark-done").innerHTML = "Remove Done";
+        document.getElementById("highlight-task").innerHTML = "Highlight";
+    } 
+}
+
+function deleteTask() {}
+
+function refreshTable() {}
