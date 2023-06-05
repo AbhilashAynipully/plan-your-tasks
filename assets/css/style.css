@@ -73,3 +73,51 @@ body {
     margin-bottom: 50px;
     color: blue;
 }
+
+
+
+/* table */
+
+#main-outer table {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border: 4px solid ;
+    border-collapse: separate;
+    margin-bottom: 20px;    
+    border-radius: 15px;
+    empty-cells: show;
+    table-layout: fixed;
+    margin-left: 10%;
+}
+
+#task-number {
+    width: 10%;
+}
+
+th,td {  
+    border-left: 2px solid ;
+    border-top: 2px solid ;
+    padding:5px;   
+}
+
+th {  
+    font-size: 175%;
+    font-weight: bold;
+    border-top: none;  
+}
+
+td {
+    font-size: 150%;
+    word-wrap: break-word;
+    color: inherit;
+    border-color: inherit;
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+td:first-child, th:first-child,td:last-child, th:last-child {
+    width: 10%;
+}
