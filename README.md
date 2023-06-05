@@ -35,8 +35,7 @@ This website is a to do planner which allows the user to plan his activities for
 
 ####  As a Returning Visitor:
 - Visitor would like to navigate/ use the interface without any constraints.
-- Visitor would like to signin and proceed in order to avoid filling in all the details while ordering again.
-- Visitor would want to navigate to social media links to provide feedback.
+- Visitor would like to save time with simple interface available.
 
 
 
@@ -45,16 +44,15 @@ The 5 planes of User Experience Design were taken into serious consideration whi
 Lets look at them in details basis each plane.
 
 ### Strategy Plane
-- Content is designed for anyone who is interesed in trying out Indian cuisine so is constructed culturally appropriate.
-- All content on the website is aimed at providing information towards the subject matter and hence is relevant.
-- Website has information in the form of text , tables and images making it convenient for users, hence has appropriate technology incorporation.
-- Website provides information about chefs and promotes homely food which makes it unique among regular food ordering websites.
+- Content is designed for anyone who is looking for a easy to use to planner with some edit options.
+- Website is designed taking into consideration simple user interface for all types of users.
+- Website has contents in the form of text , tables making it convenient for users.
 - Website is open to all and will cater to different people using various platforms and hence is responsive.
 
 ### Scope Plane
 - User of website would know about the Indian cuisine and chefs and various options available to order.
-- User can navigate through website and understand everything as the website is self explanatory.
-- Website only incorporates HTML and CSS technologies and hence functionality is limited upto certain extend.
+- User can navigate through website and understand how to use the interface as its self explanatory.
+- Website incorporates HTML, CSS and JavaScript technologies.
 
 
 ### Structure Plane
@@ -90,7 +88,7 @@ Lets look at them in details basis each plane.
  3. Mobile
 
 The wireframes were made with the help of Balsamiq.
-[Click here to view wireframe](/assets/wireframe/wireframe.pdf)
+[Click here to view wireframe]()
 
 ### Surface Plane 
 Every attempt was made to ensure that the website appears appealing to the visitors. This required taking care of aspects like
