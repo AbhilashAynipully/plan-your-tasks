@@ -288,7 +288,7 @@ footer {
 
 @media screen and (max-width:750px) {
     #main-outer {
-        min-height: 600px;
+        min-height: 500px;
     }
 
     #task-actions-popup button {
@@ -333,5 +333,9 @@ footer {
 
     #start, #add-task, #reset-table, #highlight-task, #mark-done, #delete {
         font-size: 125%;
+    }
+
+    #logo, #theme-selector {
+        line-height: 45px;
     }
 }
