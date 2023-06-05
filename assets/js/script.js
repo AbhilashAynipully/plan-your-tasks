@@ -155,6 +155,19 @@ function firstTask(){
 }
 }
 
+
+// adding eventlisterners to start and close buttons of subsequent task entry popup
+document.getElementById("add-task").addEventListener("click", function () {
+    document.getElementById("submit-new-task").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+});
+
+document.getElementById("new-task-close").addEventListener("click", function () {
+    document.getElementById("submit-new-task").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("new-task-box").value = "";
+});
+
 function newTask(){}
 
 function resetTable(){}
