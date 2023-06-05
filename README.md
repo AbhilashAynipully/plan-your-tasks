@@ -6,7 +6,7 @@ This website is a to do planner which allows the user to plan his activities for
 
 
 
-![website homescreen on different websites]()
+![website homescreen on different websites](/assets/images/multiscreen.png)
 
 [Click here to view website](https://abhilashaynipully.github.io/plan-your-tasks)
 
