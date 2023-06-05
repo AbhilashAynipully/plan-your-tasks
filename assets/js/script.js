@@ -290,6 +290,33 @@ function markDone() {
     } 
 }
 
-function deleteTask() {}
+
+
+/* removes selected task
+ * sends alert to user regarding deletion
+ * if no tasks notifies user again through alert
+ * refreshes table by chnaging the task numbers 
+ * closes the edit box
+ */
+function deleteTask() {
+    let selectedTask = document.getElementById('selected-task-no').innerHTML;
+    let table = document.getElementById("task-table");
+    table.deleteRow(selectedTask);
+    let tableRows = table.rows.length;
+    alert("Your have deleted task number - "+selectedTask);
+        
+        if (table.rows.length === 1) {
+            document.getElementById("task-count").innerText = "You Have No Tasks !"; 
+            document.getElementById("task-actions-popup").style.display = "none";  
+            document.getElementById("overlay").style.display = "none";  
+            alert("You have no more Tasks!");
+            document.getElementById("task-actions").style.display = "none"; 
+            document.getElementById("start").style.display = "inline-block";
+        } else {
+        document.getElementById("task-count").innerText = "Total Tasks -"+ (tableRows-1);
+        document.getElementById("task-actions-popup").style.display = "none";
+        document.getElementById("overlay").style.display = "none";     }  
+        refreshTable();  
+}
 
 function refreshTable() {}
