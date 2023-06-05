@@ -47,7 +47,50 @@ function themeChanger() {
           alert("You are switching to dark mode!");
           return;
           
-    }
+    }  else if(isLightTheme) {
+        isLightTheme = false;
+        document.body.style.backgroundColor = "lavender";
+        document.body.style.color = "darkblue";
+        document.getElementById("start").style.color = "green";
+        document.getElementById("start").style.backgroundColor = "whitesmoke";
+        document.getElementById("task-table").style.backgroundColor = "whitesmoke";
+        document.getElementById("task-table").style.borderColor = "darkblue";
+        document.getElementById("main-outer").style.background = "url(/assets/images/light.jpg)";
+        document.getElementById("main-outer").style.backgroundSize = "cover";
+        document.getElementById("toggle").style.backgroundColor = "black";
+        document.getElementById("toggle").style.color = "whitesmoke";
+        document.getElementById("toggle").innerText = "Dark Mode";
+        document.getElementById("welcome").style.color = "blue";
+        document.getElementById("task-count").style.color = "blue";
+        document.getElementById("task-actions-popup").style.backgroundColor = "whitesmoke";
+        document.getElementById("task-actions-popup").style.backgroundColor = "whitesmoke";
+        document.getElementById("highlight-task").style.backgroundColor = "whitesmoke";
+        document.getElementById("mark-done").style.backgroundColor = "whitesmoke";
+        document.getElementById("delete").style.backgroundColor = "whitesmoke";
+        document.getElementById("submit-task").style.backgroundColor = "whitesmoke";
+        document.getElementById("submit-new-task").style.backgroundColor = "whitesmoke";
+        document.getElementById("reset-table").style.backgroundColor = "inherit";
+        document.getElementById("add-task").style.backgroundColor = "inherit";
+        
+        let closeButtons = document.getElementsByClassName("close");
+          for (let closeButton of closeButtons){
+            closeButton.style.backgroundColor = "lavander";
+          }
+
+        let tableDatas = document.getElementsByTagName("td");
+          for (let tableData of tableDatas){
+            tableData.style.borderColor = "darkblue";
+            tableData.style.color = "darkblue";
+          }
+
+          let tableHeads = document.getElementsByTagName("th");
+          for (let tableHead of tableHeads){
+            tableHead.style.borderColor = "darkblue";
+            tableHead.style.color = "darkblue";
+          }
+
+          alert("You are switching to light mode!");
+    }   
 }
 
 function taskIdentifier() {}
