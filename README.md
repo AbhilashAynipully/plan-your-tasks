@@ -125,21 +125,27 @@ Colors and background styling were designed taking into consideration ease in re
      1. In GitHub repository navigate to the settings tav.
      2. Scroll down and select Pages from the left side navigation menu to open GitHub pages.
      3. In the source select deploy from branch and under branch select main.
-     4. After selecting Main click on save and refresh, the message appears stating 'Your site is live at https://abhilashaynipully.github.io/moms-kitchen/'
+     4. After selecting Main click on save and refresh, the message appears stating 'Your site is live at '
 
 
 ## Credits
 ### Mentor
-Thank you Mr Anthony Ugwu for being a great mentor, I couldn't have asked for a better mentor. He guided me through this projects with his feedback and suggestions. Showed me the right path to complete my first project successfully.
+Thank you Mr Anthony Ugwu for being a wonderful mentor. He guided me through this projects with his feedback and suggestions. 
+He encouraged me to try out new things which helped me in developing my understanding of the technologies used.
 
  ### Content
-- Written content for the Chefs was contributed by my wife who is the daughter chef.
-- Written content for the dessert gulab jamun under special was obtained from wikipedia.
-- Written content for the vegetable biriyani was obtained from the website www.indianhealthyrecipes.com.
+- All content of the webpage was written and designed by me.
  
  ### Media
- - All Images were obtained from pexels.com except the chef's images which was taken by me.
+ - All Images were obtained from pexels.com.
 
  ### Code
  - All codes were written by me.
- - Inspiration for the footer was taken from the love running project of www.codeinstitute.net.
+
+ ### Learning 
+ I would also like to thank the below websites which helped me in understanding the technologies used in this project.
+ - https://www.w3schools.com/
+ - https://stackoverflow.com/
+ - www.youtube.com
+
+
