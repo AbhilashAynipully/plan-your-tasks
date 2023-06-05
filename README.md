@@ -51,6 +51,8 @@ Colors and background styling were designed taking into consideration ease in re
 ### Logo
   - The logo comes up with a small animation and conveys the message that the website focuses on which is to plan and succeed.
 
+  ![Logo]()
+
 ### Theme Changer
   - The theme changer button is available on top of the page for user to immediately switch between light and dark theme as per thier choice.
 
@@ -59,31 +61,36 @@ Colors and background styling were designed taking into consideration ease in re
 
   - On hover the button size increases to indicate interactivity.
 
+### Light and Dark Themes
+  User gets to chose between light and dark theme.
 
-### Hero Image
-  - The hero image and cover text appears with an animation grabbing the users attention while landing on the home page.
-  - The cover text conveys the name of the website and tells user about the focus area of the website.
-
-   ![hero image with cover text](assets/images/hero-section.png)
-
-
-### Chefs Section
-  - The chefs section introduces the mother-daughter duo who are the chefs preparing the food.
-
-   ![image of chefs](assets/images/chefs-section.png)
+  ![Dark mode]()
+  ![Light mode]()
 
 
-### Todays Special 
-  - The Today's Special section shows pictures and details of the special dishes of the day.
-  - The special items appear with an animation grabbing users attention towards it.
+### Welcome message
+   - The welcome message communicates cleary the purpose of the website.
 
-  ![image of chefs](assets/images/special-section.png)
+   ![welcome message]()
 
 
-### Menu
-  - The Menus are divided into separate table for ease of understanding for the user.
+### Task table and task count
+  - The task table and task counter clearly display the tasks on hand for the user.
 
-  ![image of chefs](assets/images/menu-section.png)
+   ![Table and task counter]()
+
+
+### Edit options 
+  The edit option on the popup provides user with options to 
+   - Highlight Task (task gets a background color of red).
+     ![Highlighted Task]()
+
+   - Mark as Done (task gets a background color of green).
+     ![Highlighted Task]()
+
+   - Delete Task (for user to remeove the task) 
+
+
 
 
 ## Testing
@@ -94,18 +101,16 @@ Colors and background styling were designed taking into consideration ease in re
 
   - All contents on the website are readable and easy to understand.
 
-  - All the forms require users to fill in the details to proceed, however buttons are not functional yet due to limitation of technology to HTML and CSS only.
+  - All the textarea needs to be filled in before submission and user gets notified through alerts in case of empty task submission.
 
 
 ## Validator Testing
 
   - For HTML no errors were found on the official validator.w3.org site.
 
-  - For CSS no errors were found on the official jigsaw.w3.org site.  
+  - For CSS no errors were found on the official jigsaw.w3.org site. 
 
-  - Lighthouse test was conducted on Google Chrome to check site performance and following results were obtained. 
-
-   ![Lighthouse Report](assets/images/lighthouse-results.png)
+  - For JavaScript no errors were found on the jshint.com site. 
 
 
 ## Bug Fixes
