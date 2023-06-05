@@ -319,4 +319,13 @@ function deleteTask() {
         refreshTable();  
 }
 
-function refreshTable() {}
+
+
+// refreshes task order after deletion
+function refreshTable() {
+        let table = document.getElementById("task-table");
+        let tableRows = table.rows.length;  
+        for (let i = 1;i<=tableRows;i++) { 
+            table.rows[i].cells[0].innerHTML=i;      
+        }
+}
