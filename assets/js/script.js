@@ -231,7 +231,30 @@ document.getElementById("close-actions").addEventListener("click", function () {
     document.getElementById("overlay").style.display="none";
 });
 
-function createEditPopup(selectedTask){}
+
+
+/* opens edit popup
+ * identifies and shows which task was selected to edit
+ * switches button content (for eg: highlight or remove highlight) basis previous edits by user
+ */
+function createEditPopup(selectedTask) {
+    document.getElementById("task-actions-popup").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+    document.getElementById("selected-task-no").innerHTML = selectedTask;
+    let table = document.getElementById("task-table");
+    let cellColor = table.rows[selectedTask].cells[1].style.backgroundColor;
+
+    if ( cellColor === "rgba(255, 0, 0, 0.2)"){
+        document.getElementById("highlight-task").innerHTML = "Remove Highlight";
+        document.getElementById("mark-done").innerHTML = "Mark Done";
+    } else if (cellColor === "rgba(0, 255, 0, 0.2)") {
+        document.getElementById("mark-done").innerHTML = "Remove Done";
+        document.getElementById("highlight-task").innerHTML = "Highlight";
+    } else {
+        document.getElementById("highlight-task").innerHTML = "Highlight";
+        document.getElementById("mark-done").innerHTML = "Mark Done";
+    }
+}
 
 function highlightTask () {}
 
