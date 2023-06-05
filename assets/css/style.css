@@ -91,10 +91,6 @@ body {
     margin-left: 10%;
 }
 
-#task-number {
-    width: 10%;
-}
-
 th,td {  
     border-left: 2px solid ;
     border-top: 2px solid ;
@@ -116,6 +112,7 @@ td {
 
 td:first-child, th:first-child {
     border-left: none;
+    width: 10%;
 }
 
 td:first-child, th:first-child,td:last-child, th:last-child {
@@ -321,6 +318,10 @@ footer {
 
     td:last-child, th:last-child {
         width: 20%;
+    }
+
+    td:first-child, th:first-child {
+        width: 15%;
     }
 
     #submit-task h3, #submit-new-task h3, #task-actions-popup h3{
