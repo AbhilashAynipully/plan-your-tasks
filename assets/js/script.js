@@ -9,7 +9,7 @@ function themeChanger() {
         document.getElementById("start").style.backgroundColor = "black";
         document.getElementById("task-table").style.borderColor = "whitesmoke";
         document.getElementById("task-table").style.backgroundColor = "gray";
-        document.getElementById("main-outer").style.background = "url(/assets/images/dark.jpg)";
+        document.getElementById("main-outer").style.background = "url(../images/dark.jpg)";
         document.getElementById("welcome").style.color = "cyan";
         document.getElementById("task-count").style.color = "cyan";
         document.getElementById("toggle").style.backgroundColor = "whitesmoke";
