@@ -2,7 +2,7 @@
 
 ## Planner for tracking your tasks 
 
-This website is a to do planner which allows the user to plan his activities for the day. It provides user with a simple interface for entereing tasks and editing it with the help of simple actions buttons present on the interface. The interface is self explanatory and simple to use.
+This website is a To Do Planner which allows the user to plan their activities for the day. It provides user with a simple interface for entereing tasks and editing, with the help of  action buttons present on the interface. The interface is self explanatory and easy to use.
 
 
 
@@ -30,31 +30,31 @@ This website is a to do planner which allows the user to plan his activities for
 ####  As a New Visitor:
 - Visitor would want to understand the purpose of the site from home page.
 - Visitor would want to easily navigate through the interface to use the functions available.
-- Visitor would want to use his preferred theme light or dark.
+- Visitor would want to use their preferred theme light or dark.
 
 
 ####  As a Returning Visitor:
 - Visitor would like to navigate/ use the interface without any constraints.
-- Visitor would like to save time with simple interface available.
+- Visitor would like to save time with a simple interface available.
 
 
 
 ## User Experience Design (UXD)
-Website was designed taking into consideration the wide range of possible user demographic. 
+Website was designed taking into consideration the wide range of possible user demographics. 
 
-Hence aspects like design, colors and styling was attempted with a simplistic yet elegant approach in order to cater to wide range of user groups. One of the major aspect of the light vs dark theme was incorpated into the website for the potential user to choose as per his or her preference.
+Hence, aspects like design, colors and styling were attempted with a simplistic yet elegant approach in order to cater to wide range of user groups. One of the major aspect of the Light vs Dark theme was incorpated into the website for the potential user to choose as per their preferences.
 
-Colors and background styling were designed taking into consideration ease in readability.
+Colors and background styling were designed taking into consideration ease of readability.
 
 ## Features
 
 ### Logo
-  - The logo comes up with a small animation and conveys the message that the website focuses on which is to plan and succeed.
+  - The logo comes up as an animation and conveys the message that the website focuses on i.e., to plan and succeed.
 
   ![Logo](/assets/images/logo.png)
 
 ### Theme Changer
-  - The theme changer button is available on top of the page for user to immediately switch between light and dark theme as per thier choice.
+  - The theme changer button is available on top of the page for users to immediately switch between Light and Dark themes as per their choice.
 
   ![Theme Changer button dark mode](/assets/images/theme-changer-dark.png)
   ![Theme Changer button light mode](/assets/images/theme-changer-light.png)
@@ -62,7 +62,7 @@ Colors and background styling were designed taking into consideration ease in re
   - On hover the button size increases to indicate interactivity.
 
 ### Light and Dark Themes
-  User gets to chose between light and dark theme.
+  User gets to chose between Light and Dark theme.
 
   ![Dark mode](/assets/images/dark-mode.png)
   ![Light mode](/assets/images/light-mode.png)
@@ -75,20 +75,21 @@ Colors and background styling were designed taking into consideration ease in re
 
 
 ### Task table and task count
-  - The task table and task counter clearly display the tasks on hand for the user.
+  - The task table and task counter display the tasks in hand for the user.
 
    ![Table and task counter](/assets/images/table-count.png)
 
 
 ### Edit options 
-  The edit option on the popup provides user with options to 
+  The edit option on the popup provides users with options to 
+
    - Highlight Task (task gets a background color of red).
      ![Highlighted Task](/assets/images/highlight.png)
 
    - Mark as Done (task gets a background color of green).
      ![Markdone Task](/assets/images/markdone.png)
 
-   - Delete Task (for user to remeove the task) 
+   - Delete Task (for user to remove the task) 
 
 
 
@@ -101,7 +102,7 @@ Colors and background styling were designed taking into consideration ease in re
 
   - All contents on the website are readable and easy to understand.
 
-  - All the textarea needs to be filled in before submission and user gets notified through alerts in case of empty task submission.
+  - All the text area needs to be filled in before submission and user gets notified through alerts in case of empty task submission.
 
 
 ## Validator Testing
@@ -124,13 +125,13 @@ Colors and background styling were designed taking into consideration ease in re
 
      1. In GitHub repository navigate to the settings tav.
      2. Scroll down and select Pages from the left side navigation menu to open GitHub pages.
-     3. In the source select deploy from branch and under branch select main.
+     3. In the source select deploy from branch and under branch select Main.
      4. After selecting Main click on save and refresh, the message appears stating 'Your site is live at '
 
 
 ## Credits
 ### Mentor
-Thank you Mr Anthony Ugwu for being a wonderful mentor. He guided me through this projects with his feedback and suggestions. 
+Thank you Mr Anthony Ugwu for being a wonderful mentor. He guided me through this project with his feedback and suggestions. 
 He encouraged me to try out new things which helped me in developing my understanding of the technologies used.
 
  ### Content
