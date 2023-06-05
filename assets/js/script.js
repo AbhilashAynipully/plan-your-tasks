@@ -110,9 +110,7 @@ function taskIdentifier() {
     btn.addEventListener("click", function (e) {
     let parent = e.target.parentElement;
     let selectedRow = parent.parentElement.cells[0].innerHTML;
-    console.log(selectedRow);
     createEditPopup (selectedRow);
-    console.log(parent);
   });
 });
 }
