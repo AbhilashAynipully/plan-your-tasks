@@ -121,3 +121,41 @@ td:first-child, th:first-child {
 td:first-child, th:first-child,td:last-child, th:last-child {
     width: 10%;
 }
+
+
+/* action buttons */
+
+#start  , #mark-done, #add-task {
+    color: green;
+}
+
+#highlight-task {
+    color: rgba(255, 0, 0, .5);
+}
+
+#reset-table , #delete {
+    color: rgb(185, 46, 46);
+}
+
+#start, #add-task, #reset-table, #highlight-task, #mark-done, #delete {
+    font-size: 150%;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.edit-button {
+    color: inherit;
+    background-color: skyblue;
+    font-weight: bold;
+    border: 2px solid;
+    padding: 5%;
+    border-radius: 10px;
+    min-width:50% ;
+}
+
+#start:hover,#add-task:hover, #reset-table:hover, #highlight-task:hover, #mark-done:hover, #delete:hover, #toggle:hover {
+    transform: scale(1.1);
+}
