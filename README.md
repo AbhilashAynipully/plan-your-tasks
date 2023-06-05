@@ -1,6 +1,6 @@
 # Plan Your Day
 
-## Planner for traking your tasks 
+## Planner for tracking your tasks 
 
 This website is a to do planner which allows the user to plan his activities for the day. It provides user with a simple interface for entereing tasks and editing it with the help of simple actions buttons present on the interface. The interface is self explanatory and simple to use.
 
