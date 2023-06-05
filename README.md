@@ -12,7 +12,7 @@ This website is a to do planner which allows the user to plan his activities for
 
 ## Contents
 
-- [Introduction](#Plan Your Day)
+- [Introduction](#Plan-Your-Day)
 - [User Experience (UX)](#user-experience-ux)        
 - [User Experience Design (UXD)](#user-experience-design-uxd)
 - [Features](#features)
@@ -51,42 +51,42 @@ Colors and background styling were designed taking into consideration ease in re
 ### Logo
   - The logo comes up with a small animation and conveys the message that the website focuses on which is to plan and succeed.
 
-  ![Logo]()
+  ![Logo](/assets/images/logo.png)
 
 ### Theme Changer
   - The theme changer button is available on top of the page for user to immediately switch between light and dark theme as per thier choice.
 
-  ![Theme Changer button dark mode]()
-  ![Theme Changer button light mode]()
+  ![Theme Changer button dark mode](/assets/images/theme-changer-dark.png)
+  ![Theme Changer button light mode](/assets/images/theme-changer-light.png)
 
   - On hover the button size increases to indicate interactivity.
 
 ### Light and Dark Themes
   User gets to chose between light and dark theme.
 
-  ![Dark mode]()
-  ![Light mode]()
+  ![Dark mode](/assets/images/dark-mode.png)
+  ![Light mode](/assets/images/light-mode.png)
 
 
 ### Welcome message
-   - The welcome message communicates cleary the purpose of the website.
+   - The welcome message cleary communicates the purpose of the website.
 
-   ![welcome message]()
+   ![welcome message](/assets/images/welcome-message.png)
 
 
 ### Task table and task count
   - The task table and task counter clearly display the tasks on hand for the user.
 
-   ![Table and task counter]()
+   ![Table and task counter](/assets/images/table-count.png)
 
 
 ### Edit options 
   The edit option on the popup provides user with options to 
    - Highlight Task (task gets a background color of red).
-     ![Highlighted Task]()
+     ![Highlighted Task](/assets/images/highlight.png)
 
    - Mark as Done (task gets a background color of green).
-     ![Highlighted Task]()
+     ![Markdone Task](/assets/images/markdone.png)
 
    - Delete Task (for user to remeove the task) 
 
