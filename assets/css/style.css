@@ -284,3 +284,54 @@ footer {
         margin-left: 0;
     }
 }
+
+
+@media screen and (max-width:750px) {
+    #main-outer {
+        min-height: 600px;
+    }
+
+    #task-actions-popup button {
+        margin-left: 5px;
+    }
+
+    #submit-task, #submit-new-task {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+
+    #task-entry-box, #new-task-box {
+        width:80%;
+        right: 10%;
+        left: 10%;
+        font-size: 125%;
+    }
+
+    #logo {
+        font-size: 175%;
+        margin-left: 0;
+        padding: 15px;
+        text-align: center;
+    }
+
+    th, td {
+        font-size: 100%;
+    }
+
+    td:last-child, th:last-child {
+        width: 20%;
+    }
+
+    #submit-task h3, #submit-new-task h3, #task-actions-popup h3{
+        font-size: 175%;
+    }
+
+    #main-outer h2 {
+        font-size: 175%;
+    }
+
+    #start, #add-task, #reset-table, #highlight-task, #mark-done, #delete {
+        font-size: 125%;
+    }
+}
