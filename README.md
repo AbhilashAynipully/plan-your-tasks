@@ -40,90 +40,24 @@ This website is a to do planner which allows the user to plan his activities for
 
 
 ## User Experience Design (UXD)
-The 5 planes of User Experience Design were taken into serious consideration while designing the website, so that all the possible user stories can be dealth wit.
-Lets look at them in details basis each plane.
+Website was designed taking into consideration the wide range of possible user demographic. 
 
-### Strategy Plane
-- Content is designed for anyone who is looking for a easy to use to planner with some edit options.
-- Website is designed taking into consideration simple user interface for all types of users.
-- Website has contents in the form of text , tables making it convenient for users.
-- Website is open to all and will cater to different people using various platforms and hence is responsive.
+Hence aspects like design, colors and styling was attempted with a simplistic yet elegant approach in order to cater to wide range of user groups. One of the major aspect of the light vs dark theme was incorpated into the website for the potential user to choose as per his or her preference.
 
-### Scope Plane
-- User of website would know about the Indian cuisine and chefs and various options available to order.
-- User can navigate through website and understand how to use the interface as its self explanatory.
-- Website incorporates HTML, CSS and JavaScript technologies.
-
-
-### Structure Plane
-#### Landing Page
-- Nav bar with links to Special page, Menu Page and Signup Page.
-- Hero image (Indian Dishes) with cover text. 
-- Introduction to chefs and about their background.
-- Testimonials of previous customers.
-- Details and link for the discount available on signup.
-- Footer with social media links.
-#### Special Page
-- Nav bar with links to Special page, Menu Page and Signup Page.
-- Today's special section which provides details about 2 special dishes.
-- Special section has images and brief description about the dishes of the day.
-- Link to main menu if user wants to check out all dishes.
-- Footer with social media links.
-#### Menu Page
-- Nav bar with links to Special page, Menu Page and Signup Page.
-- Detailed menu with all dishes and option to choose the quantity.
-- List is exhaustive and is separated into different tables based on type of food.
-- Button to place order. (Currently not funtional due to limited technology use, HTML & CSS).
-- Footer with social media links.
-#### Signup Page
-- Nav bar with links to Special page, Menu Page and Signup Page.
-- Signup box for users to fill in details and signup.
-- Link for login terminal for existing users to login.
-- Footer with social media links.
-
- ### Skeleton Plane
- Basis the structure plane a blueprint for the site was created. Wireframes for three different platforms were created to display responsiveness of the website.
- 1. Desktop
- 2. Tablet
- 3. Mobile
-
-The wireframes were made with the help of Balsamiq.
-[Click here to view wireframe]()
-
-### Surface Plane 
-Every attempt was made to ensure that the website appears appealing to the visitors. This required taking care of aspects like
-
-#### 1. Color
-Shades of Orange and Brown colors were considered for the website as these colors represent the spices and herbs of Indian Cuisine.
-
-#### 2. Typography
-For logo regular font of Oswald was used which was imported from Google Fonts.
-
-For headings (h2 onwards) and paragraph Times was used considering improved readability.
-
-#### 3. Imagery
-Hero image : The image of Indian dishes was sourced from pexels.com contributed by Anil Sharma.
-Chefs : The image of both chefs was taken by me.
-Main Course : The image of Vegetable Biriyani was sourced from pexels.com contributed by Saveurs Secretes.
-Dessert : The image of Gulab Jamun was sourced from pexels.com contributed by Zenith Photographics.
-
-#### 4. Iconography
-For social media links in footer icons were used and were sourced from Font Awesome.
-
+Colors and background styling were designed taking into consideration ease in readability.
 
 ## Features
 
-### Navigation Bar
-  - The navigation bar is available on all pages and consumes small portion of viewport so that much of the contents is not covered.
+### Logo
+  - The logo comes up with a small animation and conveys the message that the website focuses on which is to plan and succeed.
 
-  ![navbar on large screens](assets/images/nav-bar.png)
+### Theme Changer
+  - The theme changer button is available on top of the page for user to immediately switch between light and dark theme as per thier choice.
 
-  - As the screen width decreases the links to other pages comes below the website logo.
+  ![Theme Changer button dark mode]()
+  ![Theme Changer button light mode]()
 
-    ![navbar on small screens](assets/images/nav-bar-small.png)
-
-  - An underline is present below the active link on the navigation menu.
-  - On hover the links in navigation menu change color to orange from default brown and the font size increases.
+  - On hover the button size increases to indicate interactivity.
 
 
 ### Hero Image
