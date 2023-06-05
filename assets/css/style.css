@@ -225,7 +225,7 @@ td:first-child, th:first-child,td:last-child, th:last-child {
 
 
 
-/*first task and new task entry boxes*/
+/* first task and new task entry boxes */
 
 #task-entry-box, #new-task-box {
     width:70%;
@@ -255,3 +255,10 @@ td:first-child, th:first-child,td:last-child, th:last-child {
 }
 
 
+/* footer section */
+
+footer {
+    margin: 3% auto;
+    font-size: 125%;
+    text-align: center;
+}
