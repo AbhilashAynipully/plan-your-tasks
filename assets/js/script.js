@@ -43,7 +43,6 @@ function themeChanger() {
           for (let closeButton of closeButtons){
             closeButton.style.backgroundColor = "lightgrey";
           }
-
           alert("You are switching to dark mode!");
           return;
           
@@ -88,10 +87,23 @@ function themeChanger() {
             tableHead.style.borderColor = "darkblue";
             tableHead.style.color = "darkblue";
           }
-
           alert("You are switching to light mode!");
     }   
 }
+
+
+// adding eventlisterners to start and close buttons of first task entry popup
+
+document.getElementById("start").addEventListener("click", function () {
+    document.getElementById("submit-task").style.display = "block";
+    document.getElementById("overlay").style.display = "block";
+});
+
+document.getElementById("close-task-entry").addEventListener("click", function () {
+    document.getElementById("submit-task").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+    document.getElementById("task-entry-box").value = ""; 
+});
 
 function taskIdentifier() {}
 
