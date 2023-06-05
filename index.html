@@ -36,6 +36,7 @@
                 <textarea name="task-entry-box" id="task-entry-box" cols="30" rows="10" maxlength="150" required placeholder="Enter your task here (150 characters max)"></textarea>
                 <button id="submit-task-button" onclick="firstTask()" type="button">Submit</button>
             </div>
+
             <div id="submit-new-task">
                 <div id="submit-new-task-header">
                     <button id="new-task-close" class="close">&times;</button>
@@ -44,6 +45,7 @@
                 <textarea name="new-task-box" id="new-task-box" cols="30" rows="10" maxlength="150" required placeholder="Enter your task here (150 characters max)" ></textarea>
                 <button id="submit-new-task-button" onclick="newTask()" type="button">Submit</button>
             </div>
+
             <div id="task-actions-popup">
                 <div id="actions-header">
                     <button id="close-actions" class="close">&times;</button>
@@ -53,8 +55,20 @@
                 <button id="highlight-task" onclick="highlightTask()" type="button">Highlight</button>
                 <button id="mark-done" onclick="markDone()" type="button">Mark as Done</button>
                 <button id="delete" onclick="deleteTask()" type="button">Delete</button>
-            </div>
+            </div>            
         </div>
+        
+        <table id="task-table">
+            <thead>
+                <tr>
+                    <th id="task-number">Task No.</th>
+                    <th id="activity">To Do</th>
+                    <th id="actions">Actions</th>
+                </tr>
+            </thead>
+        </table>
+
+        <h2 id="task-count">You currently have no tasks</h2>
     </section>
     <footer></footer>
     
