@@ -1,6 +1,56 @@
-function themeChanger() {}
+// themeChanger function to switch between dark and light theme 
 
-function taskIdentifier () {}
+let isLightTheme = false; // this variable assist the themechanger function
+
+function themeChanger() {
+    if (!isLightTheme) {
+        isLightTheme = true;
+        document.body.style.background = "black"; 
+        document.body.style.color = "whitesmoke";
+        document.getElementById("start").style.color = "whitesmoke";
+        document.getElementById("start").style.backgroundColor = "black";
+        document.getElementById("task-table").style.borderColor = "whitesmoke";
+        document.getElementById("task-table").style.backgroundColor = "gray";
+        document.getElementById("main-outer").style.background = "url(/assets/images/dark.jpg)";
+        document.getElementById("welcome").style.color = "cyan";
+        document.getElementById("task-count").style.color = "cyan";
+        document.getElementById("toggle").style.backgroundColor = "whitesmoke";
+        document.getElementById("toggle").style.color = "black";
+        document.getElementById("toggle").innerText = "Light Mode";
+        document.getElementById("task-actions-popup").style.backgroundColor = "lightgrey";
+        document.getElementById("highlight-task").style.backgroundColor = "lightgrey";
+        document.getElementById("mark-done").style.backgroundColor = "lightgrey";
+        document.getElementById("delete").style.backgroundColor = "lightgrey";
+        document.getElementById("submit-task").style.backgroundColor = "lightgrey";
+        document.getElementById("submit-new-task").style.backgroundColor = "lightgrey";
+        document.getElementById("selected-task").style.color = "darkblue";
+        document.getElementById("reset-table").style.backgroundColor = "lightgray";
+        document.getElementById("add-task").style.backgroundColor = "lightgray";
+
+          let tableDatas = document.getElementsByTagName("td");
+          for (let tableData of tableDatas){
+            tableData.style.borderColor = "whitesmoke";
+            tableData.style.color = "whitesmoke";
+          }
+
+          let tableHeads = document.getElementsByTagName("th");
+          for (let tableHead of tableHeads){
+            tableHead.style.borderColor = "whitesmoke";
+            tableHead.style.color = "black";
+          }
+
+          let closeButtons = document.getElementsByClassName("close");
+          for (let closeButton of closeButtons){
+            closeButton.style.backgroundColor = "lightgrey";
+          }
+
+          alert("You are switching to dark mode!");
+          return;
+          
+    }
+}
+
+function taskIdentifier() {}
 
 function firstTask(){}
 
@@ -8,7 +58,7 @@ function newTask(){}
 
 function resetTable(){}
 
-function createEditPopup (selectedTask){}
+function createEditPopup(selectedTask){}
 
 function highlightTask () {}
 
