@@ -1,7 +1,5 @@
 // themeChanger function to switch between dark and light theme 
-
 let isLightTheme = false; // this variable assist the themechanger function
-
 function themeChanger() {
     if (!isLightTheme) {
         isLightTheme = true;
@@ -44,8 +42,7 @@ function themeChanger() {
             closeButton.style.backgroundColor = "lightgrey";
           }
           alert("You are switching to dark mode!");
-          return;
-          
+          return;        
     }  else if(isLightTheme) {
         isLightTheme = false;
         document.body.style.backgroundColor = "lavender";
@@ -93,7 +90,6 @@ function themeChanger() {
 
 
 // adding eventlisterners to start and close buttons of first task entry popup
-
 document.getElementById("start").addEventListener("click", function () {
     document.getElementById("submit-task").style.display = "block";
     document.getElementById("overlay").style.display = "block";
@@ -105,7 +101,21 @@ document.getElementById("close-task-entry").addEventListener("click", function (
     document.getElementById("task-entry-box").value = ""; 
 });
 
-function taskIdentifier() {}
+
+
+// taskidentifier identifies which task has been selected by user for editing
+function taskIdentifier() {
+    let buttons = document.querySelectorAll(".edit-button"); 
+    buttons.forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+    let parent = e.target.parentElement;
+    let selectedRow = parent.parentElement.cells[0].innerHTML;
+    console.log(selectedRow);
+    createEditPopup (selectedRow);
+    console.log(parent);
+  });
+});
+}
 
 function firstTask(){}
 
