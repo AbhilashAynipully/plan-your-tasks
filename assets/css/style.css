@@ -52,3 +52,24 @@ body {
         transform:scale(1);
     }
 }
+
+
+
+/*main section*/
+
+#main-outer {
+    background:url(/assets/images/light.jpg);
+    background-size: cover;
+    min-height: 750px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 50px 10px;
+    box-sizing: border-box;
+}
+
+#main-outer h2 {
+    font-size: 200%;
+    margin-bottom: 50px;
+    color: blue;
+}
