@@ -58,7 +58,7 @@ body {
 /*main section*/
 
 #main-outer {
-    background:url(/assets/images/light.jpg);
+    background:url(assets/images/light.jpg);
     background-size: cover;
     min-height: 750px;
     width: 100%;
