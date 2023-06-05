@@ -8,7 +8,7 @@ This website is a to do planner which allows the user to plan his activities for
 
 ![website homescreen on different websites]()
 
-[Click here to view website]()
+[Click here to view website](https://abhilashaynipully.github.io/plan-your-tasks)
 
 ## Contents
 
