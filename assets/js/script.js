@@ -118,7 +118,8 @@ function taskIdentifier() {
 }
 
 
-/* enters first task into table
+/**
+ *  enters first task into table
  * checks and sends alerts if empty or no data is submitted
  * generates edit button for the task
  * if properly submitted sends alert and close the popoup after clearing textbox
@@ -170,7 +171,8 @@ document.getElementById("new-task-close").addEventListener("click", function () 
 
 
 
-/* enters susequent tasks into table
+/**
+ * enters susequent tasks into table
  * checks and sends alerts if empty or no data is submitted
  * generates edit button for each task
  * if properly submitted sends alert and close the popoup after clearing textbox
@@ -207,7 +209,8 @@ function newTask(){
 
 
 
-/*  resets entire table by deleting all tasks
+/** 
+ *  resets entire table by deleting all tasks
  *  sents alert to user
  *  hides task action buttons and brings up first task addition button
  *  changes total task count
@@ -233,7 +236,8 @@ document.getElementById("close-actions").addEventListener("click", function () {
 
 
 
-/* opens edit popup
+/** 
+ * opens edit popup
  * identifies and shows which task was selected to edit
  * switches button content (for eg: highlight or remove highlight) basis previous edits by user
  */
@@ -292,7 +296,8 @@ function markDone() {
 
 
 
-/* removes selected task
+/** 
+ * removes selected task
  * sends alert to user regarding deletion
  * if no tasks notifies user again through alert
  * refreshes table by chnaging the task numbers 
