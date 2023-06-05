@@ -205,7 +205,24 @@ function newTask(){
     }
 }
 
-function resetTable(){}
+
+
+/*  resets entire table by deleting all tasks
+ *  sents alert to user
+ *  hides task action buttons and brings up first task addition button
+ *  changes total task count
+*/
+function resetTable() {
+    let table = document.getElementById("task-table");
+    let tableRows = table.rows.length; 
+    document.getElementById("task-count").innerText = "You Have No Tasks !";
+    document.getElementById("start").style.display = "inline-block";
+    document.getElementById("task-actions").style.display = "none";
+    alert("You have removed all tasks, table has been reset.");
+    for (let i = 1;i<tableRows;) {
+       table.deleteRow(i);
+    }
+}
 
 function createEditPopup(selectedTask){}
 
